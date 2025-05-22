@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pl" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}Analiza IOC{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body>
+    <div class="container mt-4">
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>

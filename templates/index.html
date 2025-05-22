@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Wprowadź IOC{% endblock %}
+{% block content %}
+  <h1>Wprowadź IOC do analizy</h1>
+  <form method="post">
+    <input type="text" name="ioc" class="form-control mb-3" placeholder="Wprowadź IOC (IP, domena, URL...)">
+    <button type="submit" class="btn btn-primary">Analizuj</button>
+  </form>
+{% endblock %}

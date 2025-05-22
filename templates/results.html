@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Wyniki analizy{% endblock %}
+{% block content %}
+  <h2>Wyniki dla: {{ ioc }}</h2>
+  {% for name, result in results.items() %}
+    <h4>{{ name }}</h4>
+    <pre>{{ result | tojson(indent=2) }}</pre>
+  {% endfor %}
+  <h3>Rekomendacja:</h3>
+  <p>{{ rec }}</p>
+  <a href="/" class="btn btn-secondary">Powrót</a>
+{% endblock %}

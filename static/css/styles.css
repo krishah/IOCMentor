@@ -1,0 +1,10 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+pre {
+    background-color: #1e1e1e;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+}
