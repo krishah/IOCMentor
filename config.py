@@ -19,3 +19,4 @@ LLM_PROMPT    = ("Analizując poniższy wynik z narzędzi SOC, określ czy wska�
 DEFAULT_ANALYZERS = ['VirusTotal', 'AbuseIPDB', 'MISP', 'Vulners',
                      'URLScan', 'AbuseFinder', 'CyberCrimeTracker',
                      'OpenCTI', 'XForce', 'AlienVault', 'IPInfo']
+
